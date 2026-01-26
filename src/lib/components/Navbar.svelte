@@ -45,7 +45,7 @@
             <div class="flex-shrink-0">
                 <a
                     href="/"
-                    class="text-white font-bold text-xl cursor-pointer"
+                    class="text-white font-bold text-2xl cursor-pointer"
                     on:click={handleLogoClick}
                 >
                     Portfolio.
@@ -57,37 +57,37 @@
                 <div class="ml-10 flex items-center space-x-8">
                     <button
                         on:click={() => scrollToSection('about')}
-                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium transition-colors"
                     >
                         À propos
                     </button>
                     <button
                         on:click={() => scrollToSection('path')}
-                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium transition-colors"
                     >
                         Parcours
                     </button>
                     <button
                         on:click={() => scrollToSection('skills')}
-                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium transition-colors"
                     >
                         Compétences
                     </button>
                     <button
                         on:click={() => scrollToSection('projects')}
-                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium transition-colors"
                     >
                         Projets
                     </button>
                     <button
                         on:click={() => scrollToSection('contact')}
-                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium transition-colors"
                     >
                         Contact
                     </button>
                     <button
                         on:click={openCVModal}
-                        class="bg-[#2563eb] hover:bg-[#2563eb]/80 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors flex items-center"
+                        class="bg-[#2563eb] hover:bg-[#2563eb]/80 text-white px-4 py-2 rounded-md text-base font-medium transition-colors flex items-center"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -158,37 +158,37 @@
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <button
                 on:click={() => scrollToSection('about')}
-                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-lg font-medium w-full text-left"
             >
                 À propos
             </button>
             <button
                 on:click={() => scrollToSection('path')}
-                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-lg font-medium w-full text-left"
             >
                 Parcours
             </button>
             <button
                 on:click={() => scrollToSection('skills')}
-                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-lg font-medium w-full text-left"
             >
                 Compétences
             </button>
             <button
                 on:click={() => scrollToSection('projects')}
-                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-lg font-medium w-full text-left"
             >
                 Projets
             </button>
             <button
                 on:click={() => scrollToSection('contact')}
-                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium w-full text-left"
+                class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-lg font-medium w-full text-left"
             >
                 Contact
             </button>
             <button
                 on:click={openCVModal}
-                class="bg-[#2563eb] hover:bg-[#2563eb]/80 text-white block px-3 py-2 rounded-md text-base font-medium mt-2 flex items-center justify-center w-full"
+                class="bg-[#2563eb] hover:bg-[#2563eb]/80 text-white block px-3 py-2 rounded-md text-lg font-medium mt-2 flex items-center justify-center w-full"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
