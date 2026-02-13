@@ -34,7 +34,7 @@
                     </a>
 
                     <a
-                        href="https://github.com/KirushieldDev"
+                        href="https://github.com/KirushiDev"
                         target="_blank"
                         rel="noopener noreferrer"
                         class="text-gray-400 hover:text-white transition-all duration-300 transform hover:scale-110"
